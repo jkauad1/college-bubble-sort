@@ -1,13 +1,6 @@
-import java.util.Arrays;
+package classes;
 
-public class Main {
-    public static void main(String[] args) {
-        int[] lista = {7,5,1,8,3};
-
-        bubbleSort(lista);
-
-        System.out.println(Arrays.toString(lista));
-    }
+public class BubbleSortController {
 
     public static void bubbleSort(int[] lista){
         for (int i = 0; i < lista.length; i++){
